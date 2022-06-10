@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.poseidon__card {
+  background-image: linear-gradient(rgba(2, 4, 8, 0.53), rgba(5, 8, 12, 0.53)),
+    url(../img/Poseidon.webp);
+  background-size: cover;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.poseidon__heading {
+  background-image: linear-gradient(
+    to right,
+    rgba(29, 56, 112, 0.53),
+    rgba(23, 48, 81, 0.53)
+  );
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+}
+
+.poseidon__list {
+  list-style: none;
+}
+
+.bi-tsunami {
+  color: rgb(129, 129, 223);
+  font-size: 1rem;
+  padding-right: 0.5rem;
+}
