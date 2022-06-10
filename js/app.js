@@ -75,7 +75,7 @@ const Poseidon = [
 let row = document.querySelector(".row");
 
 for (let i = 0; i < Poseidon.length; i++) {
-  let card = `  <div class="col-lg-4 col-sm-12 pb-5">
+  let card = `  <div class="col-lg-4 col-md-6 col-sm-12 pb-5">
   <div class="card poseidon__card">
     <div class="img-container ratio-1x1 ratio">
       <img class="img-fluid border-3" src="${Poseidon[i].image}" />
